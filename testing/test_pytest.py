@@ -6,7 +6,7 @@ from python.calc import Calc
 class TestCalc:
     def setup(self):
         self.calc = Calc()
-        # setup：在一个类中最先被调用的函数，无论位置在哪儿
+        # setup：在一个类中最先被调用的函数，无论位置在哪儿，都是最早执行的
 
     def test_add_1(self):
         # self.calc = Calc()
